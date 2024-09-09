@@ -1,0 +1,30 @@
+
+.navbar { 
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.6rem;
+        background-color: var(--color-bg);
+        font-size: 1.4rem;
+        background-color: rgba(56, 137, 69, 0.7)
+   
+}
+h1, h2, h3, h4, h5, h6 {
+    max-width: 80ch;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}   
+p, li{ 
+    margin-left: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 80ch;
+}
+img {
+    width: 1000%;
+    height: 20rem;
+}
+ 
