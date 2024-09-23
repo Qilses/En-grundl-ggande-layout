@@ -7,7 +7,8 @@
         padding: 1.6rem;
         background-color: var(--color-bg);
         font-size: 1.4rem;
-        background-color: rgba(56, 137, 69, 0.7)
+        background-color: rgba(56, 137, 69, 0.7);
+        margin: 0;
    
 }
 h1, h2, h3, h4, h5, h6 {
@@ -28,3 +29,10 @@ img {
     height: 20rem;
 }
  
+html, body{
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+    margin-top: 0;
+
+}
