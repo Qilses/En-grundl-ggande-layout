@@ -1,7 +1,7 @@
 # Saker jag fixade på min code
 
 ## Issue #1
-( a ) får inte vara en child av ( ul )
+### ( a ) får inte vara en child av ( ul )
 
 Så här såg det utt först
 
@@ -16,10 +16,10 @@ Så här såg det utt först
     </nav>
 ~~~
 
-Den klagade på att ul fanns men det var a i den så ifall jag tar bort ul och flytar classen till nav så funkar det som jag vill.
+Den klagade på att ul fanns men det var a i den så ifall jag tar bort ul och flytar classen "navbar" till nav, varför nav? för att det ser bätter ut än att ge alla ( a ) en class.
 
 
-så här ser det ut efter jag fixade problemet
+### så här ser det ut efter jag fixade problemet
  ~~~ html
     <nav class="navbar">
         <!--<ul >-->
@@ -33,10 +33,10 @@ så här ser det ut efter jag fixade problemet
  Jag bara kommenterade bort ul så jag skulle komma ihåg det till nu.
 
  ## Issue #2
-( li ) får inte vara en child av ( body )
+### ( li ) får inte vara en child av ( body )
 
 
-Så här såg den ut först, tog bort lite av texten för att det var så mycket text
+ Så här såg den ut först, tog bort lite av texten för att det var så mycket text
 ~~~ html
     
 <a>Allergier: En av de mest påtagliga vanliga<a> 
@@ -50,7 +50,8 @@ Den klagar på att li finns i body ensam.
 För att fixa detta så är det bara att läga till ul i li. Eftersom att jag glömnde bort varför detta skulle fixas så kan jag inte svara på den
 
 
-Det jag ialla fall ändrade var att läga till ul och ge den en class, classen är odefenierad eftersom att det inte finns en class som heter "lista"
+### Det jag ialla fall ändrade var att läga till ul och ge den en class, 
+classen är odefenierad eftersom att det inte finns en container som heter "lista" i style.css filen
  ~~~ html
     
      <a>Allergier: En av de mest påtagliga vanliga<a> 
